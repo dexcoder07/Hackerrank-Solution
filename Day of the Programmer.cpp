@@ -6,7 +6,7 @@ int main()
 {
     int yr;
     cin>>yr;
-    int val = 41;
+    int val = 256 - (30*7+5);
     if(yr==1918)
     {
         cout<<val-15<<"."<<0<<9<<"."<<yr;
