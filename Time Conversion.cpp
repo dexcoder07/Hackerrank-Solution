@@ -6,6 +6,14 @@ int main()
     int hr,min,sec;
     char ch[3];
     scanf("%d:%d:%d%s",&hr,&min,&sec,&ch);
+    
+    //in C++ we can take input as:-
+    /*
+    int hr,min,sec;
+    char c;
+    cin>>hr>>c>>min>>c>>sec;
+    */
+    
     if(strcmp(ch,"PM")==0 && hr!=12)
     {
         hr = hr+12;
